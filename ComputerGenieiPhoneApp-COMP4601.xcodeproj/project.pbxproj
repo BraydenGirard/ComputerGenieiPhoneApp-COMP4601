@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F66D708B1AC729690044B056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D708A1AC729690044B056 /* AppDelegate.swift */; };
+		F66D708D1AC729690044B056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D708C1AC729690044B056 /* ViewController.swift */; };
+		F66D70901AC729690044B056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D708E1AC729690044B056 /* Main.storyboard */; };
+		F66D70921AC729690044B056 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D70911AC729690044B056 /* Images.xcassets */; };
+		F66D70951AC729690044B056 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66D70931AC729690044B056 /* LaunchScreen.xib */; };
+		F66D70A11AC729690044B056 /* ComputerGenieiPhoneApp_COMP4601Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D70A01AC729690044B056 /* ComputerGenieiPhoneApp_COMP4601Tests.swift */; };
+		F66D70BC1AC72A140044B056 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F66D70B21AC729D10044B056 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F66D70BD1AC72A140044B056 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F66D70B41AC729D10044B056 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66D709B1AC729690044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D707D1AC729690044B056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66D70841AC729690044B056;
+			remoteInfo = "ComputerGenieiPhoneApp-COMP4601";
+		};
+		F66D70B11AC729D10044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		F66D70B31AC729D10044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		F66D70B51AC729D10044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		F66D70B71AC729D10044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		F66D70B91AC72A020044B056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F66D70BB1AC72A070044B056 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F66D70BC1AC72A140044B056 /* Alamofire.framework in Copy Frameworks */,
+				F66D70BD1AC72A140044B056 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F66D70851AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ComputerGenieiPhoneApp-COMP4601.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66D70891AC729690044B056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66D708A1AC729690044B056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F66D708C1AC729690044B056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66D708F1AC729690044B056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66D70911AC729690044B056 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66D70941AC729690044B056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F66D709A1AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ComputerGenieiPhoneApp-COMP4601Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66D709F1AC729690044B056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66D70A01AC729690044B056 /* ComputerGenieiPhoneApp_COMP4601Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerGenieiPhoneApp_COMP4601Tests.swift; sourceTree = "<group>"; };
+		F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66D70821AC729690044B056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66D70971AC729690044B056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F66D707C1AC729690044B056 = {
+			isa = PBXGroup;
+			children = (
+				F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */,
+				F66D70871AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601 */,
+				F66D709D1AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests */,
+				F66D70861AC729690044B056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66D70861AC729690044B056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66D70851AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601.app */,
+				F66D709A1AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66D70871AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601 */ = {
+			isa = PBXGroup;
+			children = (
+				F66D708A1AC729690044B056 /* AppDelegate.swift */,
+				F66D708C1AC729690044B056 /* ViewController.swift */,
+				F66D708E1AC729690044B056 /* Main.storyboard */,
+				F66D70911AC729690044B056 /* Images.xcassets */,
+				F66D70931AC729690044B056 /* LaunchScreen.xib */,
+				F66D70881AC729690044B056 /* Supporting Files */,
+			);
+			path = "ComputerGenieiPhoneApp-COMP4601";
+			sourceTree = "<group>";
+		};
+		F66D70881AC729690044B056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66D70891AC729690044B056 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66D709D1AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F66D70A01AC729690044B056 /* ComputerGenieiPhoneApp_COMP4601Tests.swift */,
+				F66D709E1AC729690044B056 /* Supporting Files */,
+			);
+			path = "ComputerGenieiPhoneApp-COMP4601Tests";
+			sourceTree = "<group>";
+		};
+		F66D709E1AC729690044B056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66D709F1AC729690044B056 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66D70AB1AC729D00044B056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66D70B21AC729D10044B056 /* Alamofire.framework */,
+				F66D70B41AC729D10044B056 /* Alamofire.framework */,
+				F66D70B61AC729D10044B056 /* Alamofire iOS Tests.xctest */,
+				F66D70B81AC729D10044B056 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66D70841AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66D70A41AC729690044B056 /* Build configuration list for PBXNativeTarget "ComputerGenieiPhoneApp-COMP4601" */;
+			buildPhases = (
+				F66D70811AC729690044B056 /* Sources */,
+				F66D70821AC729690044B056 /* Frameworks */,
+				F66D70831AC729690044B056 /* Resources */,
+				F66D70BB1AC72A070044B056 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66D70BA1AC72A020044B056 /* PBXTargetDependency */,
+			);
+			name = "ComputerGenieiPhoneApp-COMP4601";
+			productName = "ComputerGenieiPhoneApp-COMP4601";
+			productReference = F66D70851AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66D70991AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66D70A71AC729690044B056 /* Build configuration list for PBXNativeTarget "ComputerGenieiPhoneApp-COMP4601Tests" */;
+			buildPhases = (
+				F66D70961AC729690044B056 /* Sources */,
+				F66D70971AC729690044B056 /* Frameworks */,
+				F66D70981AC729690044B056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66D709C1AC729690044B056 /* PBXTargetDependency */,
+			);
+			name = "ComputerGenieiPhoneApp-COMP4601Tests";
+			productName = "ComputerGenieiPhoneApp-COMP4601Tests";
+			productReference = F66D709A1AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66D707D1AC729690044B056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Brayden Girard";
+				TargetAttributes = {
+					F66D70841AC729690044B056 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F66D70991AC729690044B056 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F66D70841AC729690044B056;
+					};
+				};
+			};
+			buildConfigurationList = F66D70801AC729690044B056 /* Build configuration list for PBXProject "ComputerGenieiPhoneApp-COMP4601" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F66D707C1AC729690044B056;
+			productRefGroup = F66D70861AC729690044B056 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F66D70AB1AC729D00044B056 /* Products */;
+					ProjectRef = F66D70AA1AC729D00044B056 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F66D70841AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601 */,
+				F66D70991AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F66D70B21AC729D10044B056 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F66D70B11AC729D10044B056 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F66D70B41AC729D10044B056 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F66D70B31AC729D10044B056 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F66D70B61AC729D10044B056 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = F66D70B51AC729D10044B056 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F66D70B81AC729D10044B056 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = F66D70B71AC729D10044B056 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66D70831AC729690044B056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66D70901AC729690044B056 /* Main.storyboard in Resources */,
+				F66D70951AC729690044B056 /* LaunchScreen.xib in Resources */,
+				F66D70921AC729690044B056 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66D70981AC729690044B056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66D70811AC729690044B056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66D708D1AC729690044B056 /* ViewController.swift in Sources */,
+				F66D708B1AC729690044B056 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66D70961AC729690044B056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66D70A11AC729690044B056 /* ComputerGenieiPhoneApp_COMP4601Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66D709C1AC729690044B056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66D70841AC729690044B056 /* ComputerGenieiPhoneApp-COMP4601 */;
+			targetProxy = F66D709B1AC729690044B056 /* PBXContainerItemProxy */;
+		};
+		F66D70BA1AC72A020044B056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = F66D70B91AC72A020044B056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66D708E1AC729690044B056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66D708F1AC729690044B056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F66D70931AC729690044B056 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66D70941AC729690044B056 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66D70A21AC729690044B056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F66D70A31AC729690044B056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66D70A51AC729690044B056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ComputerGenieiPhoneApp-COMP4601/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F66D70A61AC729690044B056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ComputerGenieiPhoneApp-COMP4601/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F66D70A81AC729690044B056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComputerGenieiPhoneApp-COMP4601Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComputerGenieiPhoneApp-COMP4601.app/ComputerGenieiPhoneApp-COMP4601";
+			};
+			name = Debug;
+		};
+		F66D70A91AC729690044B056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComputerGenieiPhoneApp-COMP4601Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComputerGenieiPhoneApp-COMP4601.app/ComputerGenieiPhoneApp-COMP4601";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66D70801AC729690044B056 /* Build configuration list for PBXProject "ComputerGenieiPhoneApp-COMP4601" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66D70A21AC729690044B056 /* Debug */,
+				F66D70A31AC729690044B056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66D70A41AC729690044B056 /* Build configuration list for PBXNativeTarget "ComputerGenieiPhoneApp-COMP4601" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66D70A51AC729690044B056 /* Debug */,
+				F66D70A61AC729690044B056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66D70A71AC729690044B056 /* Build configuration list for PBXNativeTarget "ComputerGenieiPhoneApp-COMP4601Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66D70A81AC729690044B056 /* Debug */,
+				F66D70A91AC729690044B056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66D707D1AC729690044B056 /* Project object */;
+}
